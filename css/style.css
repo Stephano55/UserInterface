@@ -1,0 +1,30 @@
+.active{
+    color: gray !important;
+}
+.liste{
+    color: white !important;
+}
+.nava{
+    background: black !important;
+    font-weight: bolder !important;
+}
+.navbar-toggler{
+    background: white !important;
+}
+.btn{
+    border-radius: 20px !important;
+}
+a:hover{color: gray !important;}
+#hero{
+    position: relative;
+    background: black;
+    width: 100%;
+    min-height: 100vh;
+    padding: 120px 0 60px 0;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+#hero .animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  }
