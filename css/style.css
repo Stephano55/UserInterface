@@ -27,4 +27,12 @@ a:hover{color: gray !important;}
 }
 #hero .animated {
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
-  }
+}
+#clients{height: 70px;}
+#clients div div div div div img{
+    width: 100px;
+}
+#clients div div div div{
+    padding-left: 5%;
+}
+  
