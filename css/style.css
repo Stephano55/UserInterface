@@ -186,3 +186,46 @@ a:hover{color: gray !important;}
     margin-bottom: 0;
     overflow: hidden;
 }
+.whyUsImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.whyUsImg img{
+    max-width: 70%;
+}
+.skills{
+    padding: 100px 0px 20px 0px;
+}
+.skills h3{
+    color: black;
+}
+.skills .progress {
+    height: 60px;
+    display: block;
+    background: none;
+    border-radius: 0;
+}
+.skills .progress .skill {
+    color: black;
+    padding: 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+}
+.skills .progress .skill .val {
+    float: right;
+    font-style: normal;
+}
+.skills .progress-bar-wrap {
+    background: color-mix(in srgb, gray, transparent 90%);
+    height: 10px;
+  }
+.skills .progress-bar {
+    width: 1px;
+    height: 10px;
+    transition: 0.9s;
+    background-color: black;
+}
+  
